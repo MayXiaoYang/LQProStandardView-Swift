@@ -1,5 +1,6 @@
 # LQProStandardView-Swift
 **商品规格选择view--- Swift版本**<br/>   
+#### OC版本请点击这里[LQProStandardView-OC版](https://github.com/MayXiaoYang/LQProStandardView.git)<br/>   
 **使用示例--传入与demo中结构相同的数组即可**
 ```
 lazy var dataSource : [LQProStandardModel] = {
@@ -32,4 +33,4 @@ lazy var proSkuView:LQProductStandardView = {
     return proSkuView
 }()
 ```
-#### OC版本请点击这里[LQProStandardView-OC版](https://github.com/MayXiaoYang/LQProStandardView.git)
+
