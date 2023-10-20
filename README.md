@@ -1,6 +1,7 @@
 # LQProStandardView-Swift
 商品规格选择view--- Swift版本
 使用示例--传入与demo中结构相同的数组即可
+```
 lazy var dataSource : [LQProStandardModel] = {
     var array = [LQProStandardModel]()
     return array
@@ -30,3 +31,4 @@ lazy var proSkuView:LQProductStandardView = {
     window?.addSubview(proSkuView)
     return proSkuView
 }()
+```
