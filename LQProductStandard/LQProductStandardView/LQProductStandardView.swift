@@ -97,7 +97,7 @@ class LQProductStandardView: UIView,UICollectionViewDataSource,UICollectionViewD
     //MARK: UICollectionView的delegate和datasource
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 4
+        return dataSource.count
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
