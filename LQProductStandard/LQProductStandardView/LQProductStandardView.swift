@@ -230,13 +230,11 @@ class LQProductStandardView: UIView,UICollectionViewDataSource,UICollectionViewD
        //如果collectionView的内容高度大于SCREEN_HEIGHT - 400*WidthRatio
        if (collectionViewSizeHeight > collectionViewMaxHeight) {
            collectionView.height = collectionViewMaxHeight
-           collectionView.y = bottomToolView.y - collectionView.height
-           productMsgview.y = collectionView.y - productMsgview.height
        }else{
            collectionView.height = collectionViewSizeHeight
-           collectionView.y = bottomToolView.y - collectionView.height
-           productMsgview.y = collectionView.y - productMsgview.height
        }
+       collectionView.y = bottomToolView.y - collectionView.height
+       productMsgview.y = collectionView.y - productMsgview.height
        collectionView.isHidden = false
        productMsgview.isHidden = false
        bottomToolView.isHidden = false
