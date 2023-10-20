@@ -1,5 +1,5 @@
 # LQProStandardView-Swift
-** 商品规格选择view--- Swift版本<br/>  **    
+**商品规格选择view--- Swift版本**<br/>    
 ### 使用示例--传入与demo中结构相同的数组即可
 ```
 lazy var dataSource : [LQProStandardModel] = {
