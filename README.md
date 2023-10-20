@@ -32,3 +32,4 @@ lazy var proSkuView:LQProductStandardView = {
     return proSkuView
 }()
 ```
+#### OC版本请点击这里[LQProStandardView-OC版](https://github.com/MayXiaoYang/LQProStandardView.git)
