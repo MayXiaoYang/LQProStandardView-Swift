@@ -1,9 +1,9 @@
 # LQProStandardView-Swift
 **商品规格选择view--- Swift版本**<br/>   
 #### OC版本请点击这里[LQProStandardView-OC版](https://github.com/MayXiaoYang/LQProStandardView.git)
+**使用示例--传入与demo中结构相同的数组即可**
 #### 效果图如下
 ![效果图](https://github.com/MayXiaoYang/LQProStandardView-Swift/assets/22117207/38878ca2-0b01-4448-ba78-be0f65cc21d7)
-**使用示例--传入与demo中结构相同的数组即可**
 ```
 lazy var dataSource : [LQProStandardModel] = {
     var array = [LQProStandardModel]()
